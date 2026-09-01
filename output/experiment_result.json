@@ -1,0 +1,21 @@
+{
+  "primary_metric": "checkout conversion",
+  "control_rate": 0.63,
+  "treatment_rate": 0.6531,
+  "abs_lift_pts": 2.3,
+  "rel_lift_pct": 3.65,
+  "z_stat": 2.157,
+  "p_value": 0.01549,
+  "ci95_low_pts": 0.21,
+  "ci95_high_pts": 4.39,
+  "significant": true,
+  "guardrail_metric": "payment-error rate",
+  "control_error": 0.0218,
+  "treatment_error": 0.023,
+  "guardrail_p": 0.3535,
+  "guardrail_breached": false,
+  "decision": "SHIP",
+  "reason": "Conversion lift is statistically significant and the guardrail held.",
+  "control_n": 4041,
+  "treatment_n": 4041
+}
